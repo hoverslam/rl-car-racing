@@ -1,6 +1,6 @@
 # Car Racing
 
-The *Car Racing* environment is one of the easiest control tasks to learn from pixels. The observation space consists of a top-down 96x96 RGB image. The reward is -0.1 every frame and +1 for every track tile visited.
+The **Car Racing** environment is one of the easiest control tasks to learn from pixels. The observation space consists of a top-down 96x96 RGB image. The reward is -0.1 every frame and +1 for every track tile visited.
 
 The discrete action space has 5 values:
 - 0: do nothing
