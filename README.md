@@ -14,7 +14,7 @@ For more information see https://gymnasium.farama.org/environments/box2d/car_rac
 
 ## Solution
 
-The environment is solved with a Deep Q-Network. It consist of two convolutional layers and one fully-connected hidden layer (each with ReLu activation). The output layer has a size corresponding to the number of actions the agent can take.
+The environment is solved with a Deep Q-Network. It consist of two convolutional layers and one fully-connected hidden layer (each with ReLU activation). The output layer has a size corresponding to the number of actions the agent can take.
 
 <p align="center"><img src="img/racing_net.png?raw=true" height="300"></p>
 
