@@ -18,7 +18,7 @@ The environment is solved with a Deep Q-Network. It consist of two convolutional
 
 <p align="center"><img src="img/racing_net.png?raw=true" height="300"></p>
 
-The inputs to this neural net are images stacked to together from the last 4 frames. Beforehand three pre-preprocessing steps are done:
+The inputs to this neural net are images stacked together from the last 4 frames. Beforehand three pre-preprocessing steps are done:
 1. Convert image to grayscale.
 2. Crop the bottom part containing infos about points, action taken, etc.
 3. Resize to a squared image of final size 84x84 pixels.
